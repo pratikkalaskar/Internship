@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        .main{
+            background-color: rgb(108, 108, 226);
+            border-radius: 10px;
+            position: relative;
+        }
+        
+        .gender{
+            padding-right: 40px;
+            
+        }
+        .suggestion dl{
+            padding-right: 180px;
+        }
+        .container{
+            background-color: #ecece8;
+            border: 2px solid black;
+            border-radius: 5px;
+            padding: 10px ;
+            width: 300px;
+            display: flex;
+            align-items: center;
+            position: center center;
+        }
+        .form{
+            align-self: center;;
+        }
+        
+    </style>
+</head>
+<body>
+    <center><div class="main">
+        <h1>Add Details</h1>
+    <div class="container">
+        <div class="form">
+            <div class="name">
+                <label for=""><b>Name :</b></label>
+                <input type="text" placeholder="Enter your Name">
+            </div>
+                <br>
+            <div class="mail">
+                <label for=""><b>E-mail :</b></label>
+                <input type="email" placeholder="Enter your E-mail">
+            </div>
+            <br>
+            <div class="contact">
+                <label for=""><b>Contact :</b></label>
+                <input type="number" placeholder="Enter your Number">
+            </div>
+            <br>  
+            <div class="gender">
+                <label for=""><b>Gender :</b></label>
+                <input type="radio" name = "gender">
+                <label for="">Male</label>
+                <input type="radio"name = "gender">
+                <label for="">Female</label>
+            </div>
+            <!-- <input type="password"> -->
+            <br>
+            <label for=""><b>Password :</b></label>
+            <input type="password">
+            <br>
+            <div class="suggestion">
+                <dl><b>Suggestion :</b></dl>
+                <dd><textarea name="" id="" placeholder="Write here.."></textarea></dd>
+                
+            </div>
+                <br>
+            <input type="submit">
+        </div>
+    </div>
+</div>
+</center>
+
+    
+</body>
+</html>

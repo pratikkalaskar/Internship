@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+            .main {
+                background-color: rgb(252, 252, 253);
+                border-radius: 15px;
+                height: auto;
+                text-align: center;
+            }
+            body {
+                background-color: blue;
+                font-family: poppins;
+                width: 600px;
+                margin: auto;
+            }
+            .name {
+                width: 100%;
+            }
+
+            form {
+                text-align: center;
+                width: 600px;
+                padding: 40px;
+                font-size: 12px;
+                font-weight: 300;
+                
+            }
+
+            section input {
+                width: 100%;
+                border-radius: 5px;
+                height: 30px;
+                border: 0.5px solid grey;
+            }
+            .name input {
+                width: 100%;
+                border-radius: 5px;
+                height: 30px;
+                border: 0.5px solid gray;
+            }
+            .fname {
+                width: 225px;
+                text-align: left;
+            }
+
+            .lname {
+                width: 225px;
+                margin-left: 70px;
+                text-align: left;
+            }
+            .name {
+                display: flex;
+            }
+            .sec{
+                margin-top: 20px;
+            }
+            a{
+                color:   rgba(17, 117, 247, 0.911);  
+                text-decoration: none;
+            }
+            
+            .details{
+                text-align:left;
+            }
+            button{
+                margin-top: 40px;
+                height: 40px;
+                width: 400px;
+                border-radius: 5px;
+                border: 0;
+                background-color: rgba(17, 117, 247, 0.911);;
+                color: white;
+            }
+            ::placeholder{
+                color: black;
+                padding-left: 5px;
+            }
+            .heading{
+                background-color: rgb(231, 231, 225);
+                height: 60px;
+                margin: 0px 40px 0px 40px;
+                text-align: center;
+                display:flex;
+                justify-content: center;
+                
+            }
+            img{
+                margin-top: 30px;
+            }
+            h3{
+                color: rgb(14, 14, 122);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main">
+            <img src="salesforce.jpg" alt="salesforce img" />
+            <h3>Sign up for your Salesforce Developer Edition</h3>
+            <p>A Salesforce Platform environment for free</p>
+            <div class="heading">
+                <p style="font-size: 13px;">
+                    Complete the form to get access to the Salesforce Developer
+                    Edition.
+                </p>
+            </div>
+            <form action="" class="form">
+                <div class="name">
+                    <div class="fname">
+                        <label for="fname">First Name*</label><br />
+                        <input type="text" placeholder="Your first name" />
+                    </div>
+                    <div class="lname">
+                        <label for="lname">Last Name*</label><br />
+                        <input type="text" placeholder="Your last name" />
+                    </div>
+                </div>
+
+                <section class="details">
+
+                <div class="sec">
+                    <label for="email" class="label">Email*</label>
+                    <br />
+                    <input type="text" placeholder="Your email address" />
+                </div>
+
+                <div class="sec">
+                    <label for="Role" class="label">Role*</label><br />
+                    <input type="text" placeholder="Your job role " />
+                </div>
+
+                <div class="sec">
+                    <label for="Company" class="label">Company*</label><br />
+                    <input type="text" placeholder="Company name" />
+                </div>
+
+                <div class="sec">
+                    <label for="Country" class="label">Country/Region*</label
+                    ><br />
+                    <input type="text" />
+                </div>
+
+                <div class="sec">
+                    <label for="code" class="label">Postal Code*</label><br />
+                    <input type="text" placeholder="Your postal code" />
+                </div>
+
+                <div class="sec">
+                    <label for="username" class="label">Username*</label><br />
+                    <input type="text" placeholder="pratik0402@gmail.com"/>
+                </div>
+                <p>
+                    Your username must be in the form of an email address (it
+                    does not have to be real). It must be unique and cannot be
+                    associated with another Salesforce login credential. <a
+                        href=""
+                        >Read more about username recommendations.</a
+                    >
+                </p>
+            </section>
+                
+                <input type="checkbox" /><a href=""
+                    >I agree to the Main Services Agreement — Developer Services
+                    and Salesforce Program Agreement.</a
+                >
+                <br />
+                <button><strong>Sign me Up</strong></button>
+                <br />
+                <p style="font-size: 16px; font-weight:400",>Already have a Salesforce Developer Environment?</p>
+                <br />
+                <a href="" style="font-size: 16px;font-weight:400">Log in</a>
+            </form>
+        </div>
+    </body>
+</html>

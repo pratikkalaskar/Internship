@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        table{
+            border: solid 2px black;
+            width: 400px;
+            background-color: rgb(188, 187, 187);
+            
+        }
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+            }
+            button{
+                margin-left: 25px;
+            }
+            body{
+                text-align: center;
+                
+            }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>Registration form</h1>
+        <table>
+            <tr>
+                <td><label for="">Enter your first name</label></td>
+                <td><input type="text" placeholder="enter your first name"></td>
+            </tr>
+            <tr>
+                <td><label for="">Enter your last name</label></td>
+                <td ><input type="text" placeholder="enter your last name"></td>
+            </tr>
+            <tr>
+                <td><label for="pass">Enter your password</label></td>
+                <td ><input type="password" id="pass"></td>
+            </tr>
+            <tr>
+                <td><label for="repass">ReEnter your password</label></td>
+                <td ><input type="text" id="repass"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Enter your email</label></td>
+                <td ><input type="text" name="email" id="email"></td>
+            </tr>
+            <tr>
+                <td><label for="mobile">Enter your mobile</label></td>
+                <td ><input type="number" id="mobile"></td>
+            </tr>
+            <tr>
+                <td><label for="address">Enter your address</label></td>
+                <td><textarea name="address" id="address" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td>Select your gender</td>
+                <td>
+                    <label for="male">Male</label>
+                    <input type="radio" id="male">
+                
+                    <label for="female">Female</label>
+                    <input type="radio" id="female">
+                </td>
+            </tr>
+            <tr>
+                <td>Select your hobbies</td>
+                <td>
+                    <label for="hobby">Hobby1</label>
+                    <input type="checkbox" id="hobby">
+                
+                    <label for="hobby">Hobby2</label>
+                    <input type="checkbox" id="hobby">
+                
+                    <label for="hobby">Hobby3</label>
+                    <input type="checkbox" id="hobby">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="dob">Select your DOB</label></td>
+                <td><input type="date" name="DOB" id="dob"></td>
+            </tr>
+            <tr>
+                <td><label for="country">Select your Country</label></td>
+                <td>
+                <select name="country" id="country">
+                    <option value="country">Select your Country</option>
+                    <option value="country">India</option>
+                    <option value="country">Nigeria</option>
+                    <option value="country">Malaysia</option>
+                    <option value="country">USA</option>
+                    <option value="country">Brazil</option>
+    
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="pic">Upload your pic</label></td>
+                <td><input type="file" name="Image" id="pic"></td>
+            </tr>
+            <tr>
+            <td colspan="2">
+                <button>Save My data</button>
+                <button>Reset Data</button>
+            </td>
+            </tr>
+    
+        </table>
+    </center>
+    
+</body>
+</html>
